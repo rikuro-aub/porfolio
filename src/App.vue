@@ -54,10 +54,6 @@ export default {
   color: #333;
 }
 
-.menu-bar a.current {
-  color: #00B0F0;
-  border-bottom:2px solid #00B0F0;
-}
 .menu-bar a:hover {
   color:#F7CB4D;
   border-bottom:2px solid #F7CB4D;
