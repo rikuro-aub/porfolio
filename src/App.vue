@@ -26,7 +26,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0;
 }
 
 .menu-bar {
@@ -41,8 +41,11 @@ export default {
 .menu-bar li {
   list-style: none;
   display: inline-block;
-  width: 10%;
+  width: 20%;
   min-width: 90px;
+  padding: 0.5rem;
+  height: 2rem;
+  background-color: #4ec4d3;
 }
 
 .menu-bar li:not(:last-child) {
@@ -51,7 +54,7 @@ export default {
 
 .menu-bar a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
 }
 
 .menu-bar a:hover {
