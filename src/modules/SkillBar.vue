@@ -1,15 +1,24 @@
 <template>
 <div>
-    <p class="skill-name">aaaa</p>
+    <p class="skill-name">{{skillName}}</p>
     <ol class="skill-bar">
-        <li><span>個人開発レベル</span></li>
-        <li ><span>業務経験あり-基礎レベル</span></li>
-        <li class="is-active"><span>業務経験あり-標準レベル</span></li>
-        <li><span>業務経験あり-重箱の隅の知識あり</span></li>
-        <li><span>なんでもこい!!</span></li>
+        <li v-bind:class="{ 'is-active': activeLevel === '1' }"><span>個人開発レベル</span></li>
+        <li v-bind:class="{ 'is-active': activeLevel === '2' }"><span>業務経験あり-基礎レベル</span></li>
+        <li v-bind:class="{ 'is-active': activeLevel === '3' }"><span>業務経験あり-標準レベル</span></li>
+        <li v-bind:class="{ 'is-active': activeLevel === '4' }"><span>業務経験あり-重箱の隅の知識あり</span></li>
+        <li v-bind:class="{ 'is-active': activeLevel === '5' }"><span>なんでもこい!!</span></li>
     </ol>
 </div>
 </template>
+
+<script>
+export default {
+    props: {
+        skillName: String,
+        activeLevel: String
+    }
+}
+</script>
 
 <style>
 
