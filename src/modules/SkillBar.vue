@@ -40,18 +40,13 @@ export default {
 
 .skill-name {
     text-align: left;
-    max-width: 100%;
-    padding-left: 25%;
 }
 
 .skill-bar {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding-left: 25%;
-    padding-right: 25%;
     margin: 0 0 1rem 0;
-    max-width: 100%;
 }
 
 .skill-bar li {
