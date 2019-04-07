@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="skill">
     <h1>skill</h1>
     <p class="section-name">Program language</p>
     <p class="skill-section">
@@ -36,15 +36,14 @@ export default {
 </script>
 
 <style>
-    .skill-section {
-        padding: 0.5em 1em;
-        margin: 2em 20%;
-        border: double 5px #4ec4d3;
-    }
-
-    .section-name {
-        text-align: left;
-        max-width: 100%;
-        padding-left: 20%;
-    }
+.skill-section {
+    padding: 0.5em 1em;
+    margin: 2em 20%;
+    border: double 5px #4ec4d3;
+}
+.section-name {
+    text-align: left;
+    max-width: 100%;
+    padding-left: 20%;
+}
 </style>
