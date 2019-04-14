@@ -37,13 +37,18 @@ export default {
 
 <style>
 .skill-section {
-    padding: 0.5em 1em;
-    margin: 2em 20%;
+    padding: 0.5em 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 3em;
     border: double 5px #4ec4d3;
+    min-width: 350px;
+    max-width: 80%;
 }
 .section-name {
     text-align: left;
     max-width: 100%;
-    padding-left: 20%;
+    padding-left: 15%;
+    font-size: 21px;
 }
 </style>

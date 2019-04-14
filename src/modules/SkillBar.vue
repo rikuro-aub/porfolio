@@ -46,7 +46,7 @@ export default {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 0 0 1rem 0;
+    margin: 0 0 3em 0;
 }
 
 .skill-bar li {

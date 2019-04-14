@@ -12,5 +12,6 @@
 .about img {
     width: 10%;
     margin-top: 1em;
+    min-width: 100px;
 }
 </style>
