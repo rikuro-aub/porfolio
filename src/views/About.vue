@@ -1,6 +1,16 @@
 <template>
     <div class="about">
-        <img alt="Vue logo" src="@/assets/logo.png">
         <h1>About</h1>
+        <img src="@/assets/about_img.png">
+        <p>弱小SIerに勤務しております。</p>
+        <p>Web系に転職したくて奮闘中。</p>
+        <p>フルスタックエンジニアになりたい!!</p>
     </div>
 </template>
+
+<style>
+.about img {
+    width: 10%;
+    margin-top: 1em;
+}
+</style>
