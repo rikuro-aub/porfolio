@@ -3,9 +3,15 @@
     <h1>Product</h1>
     <product-figure
         productLink='https://rikuro-aub.github.io/portfolio'
-        productImage='logo.png'
+        productImage='portfolio.png'
         productTitle='Portfolio'
         productDescription='このPortfolioサイト'
+    ></product-figure>
+    <product-figure
+        productLink='https://qiita.com/3no3_tw/items/9baf638cdfbc986cba4f'
+        productImage='NAS.png'
+        productTitle='NAS'
+        productDescription='Raspberry PiでNAS構築'
     ></product-figure>
 </div>
 </template>
@@ -19,3 +25,8 @@ export default {
 }
 </script>
 
+<style>
+.product-figure {
+    display: inline-block;
+}
+</style>

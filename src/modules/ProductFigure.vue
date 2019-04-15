@@ -29,14 +29,13 @@ export default {
 </script>
 
 <style>
-.product-figure{
-    width: 25%
-}
-
 figure {
+    display: inline-block;
     position: relative;
     overflow: hidden;
-    width: 100%;
+    border: solid #000 1px;
+    min-width: 200px;
+    width: 300px;
 }
 
 figure img{
