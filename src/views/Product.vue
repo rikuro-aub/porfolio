@@ -2,7 +2,7 @@
 <div class="product">
     <h1>Product</h1>
     <product-figure
-        productLink='https://rikuro-aub.github.io/portfolio'
+        productLink='https://rikuro-aub-portfolio.netlify.com'
         productImage='portfolio.png'
         productTitle='Portfolio'
         productDescription='このPortfolioサイト'
