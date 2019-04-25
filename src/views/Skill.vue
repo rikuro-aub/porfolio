@@ -1,6 +1,6 @@
 <template>
 <div class="skill">
-    <h1>skill</h1>
+    <h1>Skill</h1>
     <p class="section-name">Program language</p>
     <p class="skill-section">
         <skill-bar skillName='VB.NET' activeLevel=3></skill-bar>
