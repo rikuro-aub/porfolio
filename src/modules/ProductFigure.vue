@@ -36,20 +36,21 @@ figure {
     border: solid #000 1px;
     min-width: 200px;
     width: 300px;
+    height: 200px;
 }
 
 figure img{
+    position: relative;
     width: 100%;
-    height: 200px;
+    height: 100%;
 }
 
 figcaption {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
     width: 100%;
-    height: 200px;
+    height: 100%;
     background: rgba(0,0,0,.6);
     transition: 1s;
     opacity: 0;
