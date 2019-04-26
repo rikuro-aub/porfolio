@@ -1,16 +1,16 @@
 <template>
-  <div id="app">
-    <nav class="menu-bar">
-      <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/About">About</router-link></li>
-        <li><router-link to="/Skill">Skill</router-link>
-        <li><router-link to="/Product">Product</router-link></li>
-        <li><router-link to="/Social">Social</router-link></li>
-      </ul>
-    </nav>
-    <router-view/>
-  </div>
+<div id="app">
+  <nav class="menu-bar">
+    <ul>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/About">About</router-link></li>
+      <li><router-link to="/Skill">Skill</router-link>
+      <li><router-link to="/Product">Product</router-link></li>
+      <li><router-link to="/Social">Social</router-link></li>
+    </ul>
+  </nav>
+  <router-view/>
+</div>
 </template>
 
 <script>
@@ -31,6 +31,8 @@ export default {
 
 .menu-bar {
   text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .menu-bar ul {
