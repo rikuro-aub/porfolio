@@ -3,25 +3,25 @@
     <h1>Skill</h1>
     <p class="section-name">Program language</p>
     <p class="skill-section">
-        <skill-bar skillName='VB.NET' activeLevel=3></skill-bar>
-        <skill-bar skillName='PHP' activeLevel=3></skill-bar>
-        <skill-bar skillName='SQL(ストアドプロシージャ)' activeLevel=3></skill-bar>
-        <skill-bar skillName='Bash' activeLevel=2></skill-bar>
-        <skill-bar skillName='HTML' activeLevel=1></skill-bar>
-        <skill-bar skillName='CSS' activeLevel=1></skill-bar>
-        <skill-bar skillName='JavaScript' activeLevel=1></skill-bar>
+        <skill-bar skill-name='VB.NET' active-level=3></skill-bar>
+        <skill-bar skill-name='PHP' active-level=3></skill-bar>
+        <skill-bar skill-name='SQL(ストアドプロシージャ)' active-level=3></skill-bar>
+        <skill-bar skill-name='Bash' active-level=2></skill-bar>
+        <skill-bar skill-name='HTML' active-level=1></skill-bar>
+        <skill-bar skill-name='CSS' active-level=1></skill-bar>
+        <skill-bar skill-name='JavaScript' active-level=1></skill-bar>
     </p>
     <p class="section-name">Framework</p>
     <p class="skill-section">
-        <skill-bar skillName='ASP.NET' activeLevel=2></skill-bar>
-        <skill-bar skillName='Symfony' activeLevel=2></skill-bar>
-        <skill-bar skillName='Vue.js' activeLevel=1></skill-bar>
+        <skill-bar skill-name='ASP.NET' active-level=2></skill-bar>
+        <skill-bar skill-name='Symfony' active-level=2></skill-bar>
+        <skill-bar skill-name='Vue.js' active-level=1></skill-bar>
     </p>
     <p class="section-name">Others</p>
     <p class="skill-section">
-        <skill-bar skillName='Git' activeLevel=2></skill-bar>
-        <skill-bar skillName='SVN' activeLevel=2></skill-bar>
-        <skill-bar skillName='Slack' activeLevel=2></skill-bar>
+        <skill-bar skill-name='Git' active-level=2></skill-bar>
+        <skill-bar skill-name='SVN' active-level=2></skill-bar>
+        <skill-bar skill-name='Slack' active-level=2></skill-bar>
     </p>
 </div>
 </template>
