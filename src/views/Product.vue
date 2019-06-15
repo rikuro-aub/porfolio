@@ -13,6 +13,12 @@
         productTitle='NAS'
         productDescription='Raspberry PiでNAS構築'
     ></product-figure>
+    <product-figure
+        productLink='https://bumblebee-presented-by-supporter.netlify.com/'
+        productImage='promote_syte.png'
+        productTitle='promote_syte'
+        productDescription='バンドのライブ告知サイトの制作'
+    ></product-figure>
 </div>
 </template>
 

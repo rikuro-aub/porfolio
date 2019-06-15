@@ -41,6 +41,7 @@ figure {
 
 figure img{
     position: relative;
+    margin-left: 1px;
     width: 100%;
     height: 100%;
 }
