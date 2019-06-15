@@ -20,6 +20,10 @@ export default {
 </script>
 
 <style>
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -44,9 +48,6 @@ export default {
   list-style: none;
   display: inline-block;
   width: 20%;
-  min-width: 90px;
-  padding: 0.5rem;
-  height: 2rem;
   background-color: #4ec4d3;
 }
 
@@ -55,8 +56,11 @@ export default {
 }
 
 .menu-bar a {
+  display: block;
+  margin: 0 auto;
   text-decoration: none;
   color: #ffffff;
+  font-size: 1.5vw;
 }
 
 .menu-bar a:hover {

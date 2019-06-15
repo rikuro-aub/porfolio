@@ -58,7 +58,7 @@ export default {
     display: inline-block;
     white-space: pre-wrap;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 5vw;
     margin-top: 3em;
 }
 
