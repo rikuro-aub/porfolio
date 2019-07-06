@@ -62,5 +62,16 @@ figure:hover figcaption {
     transform: rotate(360deg);
     opacity: 1;
 }
+
+/* スマートフォン対応 */
+@media screen and (max-width:599px) {
+    figure {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+        margin-bottom: 2rem;
+    }
+}
 </style>
 

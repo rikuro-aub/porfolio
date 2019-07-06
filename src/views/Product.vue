@@ -16,7 +16,7 @@
     <product-figure
         productLink='https://bumblebee-presented-by-supporter.netlify.com/'
         productImage='promote_syte.png'
-        productTitle='promote_syte'
+        productTitle='Promote syte'
         productDescription='バンドのライブ告知サイトの制作'
     ></product-figure>
 </div>

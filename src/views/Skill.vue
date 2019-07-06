@@ -42,7 +42,6 @@ export default {
     margin-right: 15%;
     margin-bottom: 3em;
     border: double 5px #4ec4d3;
-    min-width: 350px;
     max-width: 80%;
 }
 .section-name {
@@ -50,5 +49,23 @@ export default {
     max-width: 100%;
     padding-left: 15%;
     font-size: 21px;
+}
+
+/* スマートフォン対応 */
+@media screen and (max-width:599px) {
+    .section-name {
+        padding-left: 0;
+    }
+
+    .skill-section {
+        margin: 0 0 2rem 0;
+        min-width: 100%;
+    }
+
+    .skill-bar {
+        padding-inline-start: 0.8rem;
+        margin-block-end: 0;
+        margin-bottom: 2rem;
+    }
 }
 </style>

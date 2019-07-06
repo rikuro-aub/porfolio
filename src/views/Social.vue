@@ -52,4 +52,11 @@
     margin-left: 49%;
     margin-right: 50%;
 }
+
+/* スマートフォン対応 */
+@media screen and (max-width:599px) {
+    .social :nth-child(3) {
+        font-size: 4vw;
+    }
+}
 </style>

@@ -35,8 +35,6 @@ export default {
 
 .menu-bar {
   text-align: center;
-  padding-left: 15%;
-  padding-right: 15%;
 }
 
 .menu-bar ul {
@@ -66,5 +64,12 @@ export default {
 .menu-bar a:hover {
   color:#F7CB4D;
   border-bottom:2px solid #F7CB4D;
+}
+
+/* スマートフォン対応 */
+@media screen and (max-width:599px) {
+  .menu-bar a {
+    font-size: 5vw;
+  }
 }
 </style>
