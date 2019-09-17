@@ -2,7 +2,7 @@
     <div class="about">
         <h1>About</h1>
         <img src="@/assets/about_img.png">
-        <p>弱小SIerに勤務しております。</p>
+        <p>弱小SIerに勤務しておりました。</p>
         <p>Web系に転職したくて奮闘中。</p>
         <p>フルスタックエンジニアになりたい!!</p>
     </div>

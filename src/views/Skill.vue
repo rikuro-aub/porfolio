@@ -10,12 +10,14 @@
         <skill-bar skill-name='HTML' active-level=1></skill-bar>
         <skill-bar skill-name='CSS' active-level=1></skill-bar>
         <skill-bar skill-name='JavaScript' active-level=1></skill-bar>
+        <skill-bar skill-name='Ruby' active-level=1></skill-bar>
     </p>
     <p class="section-name">Framework</p>
     <p class="skill-section">
         <skill-bar skill-name='ASP.NET' active-level=2></skill-bar>
-        <skill-bar skill-name='Symfony' active-level=2></skill-bar>
+        <skill-bar skill-name='Smarty' active-level=2></skill-bar>
         <skill-bar skill-name='Vue.js' active-level=1></skill-bar>
+        <skill-bar skill-name='Ruby on Rails' active-level=1></skill-bar>
     </p>
     <p class="section-name">Others</p>
     <p class="skill-section">
