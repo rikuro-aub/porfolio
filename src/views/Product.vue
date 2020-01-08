@@ -19,11 +19,17 @@
         productTitle='Promote syte'
         productDescription='バンドのライブ告知サイトの制作'
     ></product-figure>
-        <product-figure
+    <product-figure
         productLink='https://fathomless-shore-11924.herokuapp.com/'
         productImage='QA-app.png'
         productTitle='QA Application'
         productDescription='簡易QA投稿サイト'
+    ></product-figure>
+    <product-figure
+        productLink='https://proitt.herokuapp.com/'
+        productImage='proitt.png'
+        productTitle='proitt'
+        productDescription='プログラミング学習動画に特化した動画掲載&共有サービス'
     ></product-figure>
 </div>
 </template>
