@@ -31,6 +31,12 @@
         productTitle='proitt'
         productDescription='プログラミング学習動画に特化した動画掲載&共有サービス'
     ></product-figure>
+    <product-figure
+        productLink='https://share.getcloudapp.com/bLuGyxJB'
+        productImage='flower_arrangement.png'
+        productTitle='生け花展示会チラシ'
+        productDescription='生け花展示会を告知するチラシ'
+    ></product-figure>
 </div>
 </template>
 
